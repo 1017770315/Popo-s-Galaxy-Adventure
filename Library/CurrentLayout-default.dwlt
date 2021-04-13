@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 18
+  controlID: 120
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 63
+  controlID: 57
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 64
+  controlID: 58
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,9 +311,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -998.19366, y: 344.9613, z: -498.45352}
+    m_Target: {x: 359.28076, y: 214.39691, z: -51.9375}
     speed: 2
-    m_Value: {x: -998.19366, y: 344.9613, z: -498.45352}
+    m_Value: {x: 359.28076, y: 214.39691, z: -51.9375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -363,9 +363,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1755.5583
+    m_Target: 347.106
     speed: 2
-    m_Value: 1755.5583
+    m_Value: 347.106
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -383,8 +383,8 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
+  m_LastSceneViewRotation: {x: -0.0014974326, y: 0.058466583, z: 0.0000876996, w: 0.99828863}
+  m_LastSceneViewOrtho: 1
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
@@ -452,23 +452,57 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 274.4
+    x: 270.4
     y: 73.6
-    width: 847
+    width: 851
     height: 449
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -5319670781111694688, guid: 5d2a7fd4f6980aa4fb55539d9f8356d0, type: 2}
+    - {fileID: 7316148503883273173, guid: 9e7002a41bb904d46916226a85aacaec, type: 2}
+    - {fileID: -7685346984349533361, guid: 046b8c5575ae57f40991aeb09ad1bb08, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.659762
       e01: 0
       e02: 0
-      e03: 0
+      e03: -59.96515
       e10: 0
-      e11: 1
+      e11: 0.659762
       e12: 0
-      e13: 0
+      e13: 135.26392
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.5221053
+      e01: 0
+      e02: 0
+      e03: -11.105255
+      e10: 0
+      e11: 0.5221053
+      e12: 0
+      e13: 160.62105
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.5221053
+      e01: 0
+      e02: 0
+      e03: -11.105255
+      e10: 0
+      e11: 0.5221053
+      e12: 0
+      e13: 160.62105
       e20: 0
       e21: 0
       e22: 1
@@ -560,20 +594,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\GitHub\Popo's Galaxy Adventure
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: c8390000
-    m_LastClickedID: 14792
-    m_ExpandedIDs: 00000000c0390000c6390000cc39000000ca9a3b
+    scrollPos: {x: 0, y: 62}
+    m_SelectedIDs: cc390000
+    m_LastClickedID: 14796
+    m_ExpandedIDs: 00000000c0390000c639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +679,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -724,20 +758,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 263f0000
-      m_LastClickedID: 16166
-      m_ExpandedIDs: f8c3ffff88e5fffffaf5fffff2f8ffff22f9ffff88f9ffff16faffff66fbffff
+      m_SelectedIDs: 243d0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 7cc1ffffb4ccffffdcccffff16d3ffff2ad3ffffcad3ffffecd3ffffe8ecffffd4eeffff7af1fffffcf1ffffd6faffffe2faffff66fbffff463a00007a3a00007e3a0000f43b0000b03c0000483e0000d43e0000d63f00000a400000384500006c450000ee4a0000064b0000844b0000984b000012500000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Alien
-        m_OriginalName: Alien
+        m_Name: planet9
+        m_OriginalName: planet9
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -8560
+        m_UserData: 19294
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0

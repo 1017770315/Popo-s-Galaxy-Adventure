@@ -3,26 +3,29 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StoryText : MonoBehaviour
 {
     //用来显示字幕的TextUi
     public Text Titles;
-    public Button StartBtn;
     //文件流,用于读取文本
     StreamReader sr;
     //文本中的字幕的行数
     int lineCount=0;
-
+    private Animation anim;
 
     void Start()
     {
+        anim = this.transform.parent.gameObject.GetComponent<Animation>();
+        
         StartCoroutine(Display());
-        // Popo飞天
-        // 加载main scene
         
     }
-
+    void Update()
+    {
+        
+    }
     IEnumerator Display()
     {
         sr= new StreamReader(Application.dataPath + "/text.txt");
@@ -54,5 +57,19 @@ public class StoryText : MonoBehaviour
         //关闭并释放流
         sr.Close();
         sr.Dispose();
+
+        // Popo飞天
+        // 加载main scene
+        
+        anim.Play("PoPoRotate");
+        Invoke("Success",2); 
     }
+   
+    public void Success()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+    // Start is called before the first frame update
+    // Update is called once per frame
+   
 }

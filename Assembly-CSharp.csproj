@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\dialogControl1.cs" />
+     <Compile Include="Assets\Scripts\sceneManager.cs" />
      <Compile Include="Assets\StoryText.cs" />
      <Compile Include="Assets\playerControl.cs" />
      <None Include="Assets\Text.txt" />
