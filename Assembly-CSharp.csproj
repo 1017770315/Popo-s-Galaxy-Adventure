@@ -37,7 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\CameraFollow.cs" />
+     <Compile Include="Assets\StoryText.cs" />
      <Compile Include="Assets\playerControl.cs" />
+     <None Include="Assets\Text.txt" />
     <Reference Include="UnityEngine">
         <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
