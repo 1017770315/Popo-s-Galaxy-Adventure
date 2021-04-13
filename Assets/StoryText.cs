@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -8,6 +8,7 @@ public class StoryText : MonoBehaviour
 {
     //用来显示字幕的TextUi
     public Text Titles;
+    public Button StartBtn;
     //文件流,用于读取文本
     StreamReader sr;
     //文本中的字幕的行数
@@ -17,7 +18,9 @@ public class StoryText : MonoBehaviour
     void Start()
     {
         StartCoroutine(Display());
-        // 显示开始按钮
+        // Popo飞天
+        // 加载main scene
+        
     }
 
     IEnumerator Display()
