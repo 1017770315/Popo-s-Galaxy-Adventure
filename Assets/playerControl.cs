@@ -7,6 +7,7 @@ public class playerControl : MonoBehaviour {
     float speed = 7.0f;
     float inputX;
     float inputY;
+	float move = 0;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,6 +19,8 @@ public class playerControl : MonoBehaviour {
 		{
 			print("w");
 			transform.Translate(Vector3.up * Time.deltaTime * 1 * speed);
+			move += Time.deltaTime * speed;
+			print(move);
 		}
 
 		//向下运动——S
@@ -25,6 +28,9 @@ public class playerControl : MonoBehaviour {
 		{
 			print("s");
 			transform.Translate(Vector3.down * Time.deltaTime * 1 * speed);
+			move += Time.deltaTime * speed;
+			print(move);
+
 		}
 
 		//向左运动——A
@@ -32,6 +38,8 @@ public class playerControl : MonoBehaviour {
 		{
 			print("a");
 			transform.Translate(Vector3.left * Time.deltaTime * 1 * speed);
+			move += Time.deltaTime * speed;
+			print(move);
 		}
 
 		//向右运动——D
@@ -39,6 +47,8 @@ public class playerControl : MonoBehaviour {
 		{
 			print("d");
 			transform.Translate(Vector3.right * Time.deltaTime * 1 *speed);
+			move += Time.deltaTime * speed;
+			print(move);
 		}
         
     }
