@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerControl : MonoBehaviour {
 
@@ -54,6 +55,11 @@ public class playerControl : MonoBehaviour {
 			move += Time.deltaTime * speed;
 			//print(move);
 		}
+
+		if(health <= 0)
+		{
+			StartCoroutine (KillPlayer ());
+		}
         
     }
 	void OnCollisionEnter2D(Collision2D other)
@@ -62,8 +68,7 @@ public class playerControl : MonoBehaviour {
         {
             Destroy(other.gameObject);
 			metSum++;
-			health -= Random.Range(1,10);
-
+			health -= Random.Range(5,10);
         }
 		if(other.gameObject.tag == "fuel")
         {
@@ -78,4 +83,11 @@ public class playerControl : MonoBehaviour {
 			planetSum++;
         }
     }
+	IEnumerator KillPlayer()
+	{
+		// After waiting reset the game
+		yield return 0;//new WaitForSeconds(1.0f);
+        int index = SceneManager.GetActiveScene().buildIndex;
+		UnityEngine.SceneManagement.SceneManager.LoadScene(index);
+	}
 }
