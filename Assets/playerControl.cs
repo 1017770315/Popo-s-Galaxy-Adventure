@@ -12,6 +12,7 @@ public class playerControl : MonoBehaviour {
 	int fuelSum = 0; // the total number of fuels that popo hits
 	int planetSum = 0;
 	// Use this for initialization
+	int health = 100;
 	void Start () {
 		
 	}
@@ -61,11 +62,15 @@ public class playerControl : MonoBehaviour {
         {
             Destroy(other.gameObject);
 			metSum++;
+			health -= Random.Range(1,10);
+
         }
 		if(other.gameObject.tag == "fuel")
         {
             Destroy(other.gameObject);
 			fuelSum++;
+			health += Random.Range(1,10);
+
         }
 		if(other.gameObject.tag == "planet")
         {
