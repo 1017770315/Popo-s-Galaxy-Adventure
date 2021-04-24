@@ -10,6 +10,7 @@ public class playerControl : MonoBehaviour {
 	float move = 0; //move number
 	int metSum = 0; // the total number of mets that popo hits 
 	int fuelSum = 0; // the total number of fuels that popo hits
+	int planetSum = 0;
 	// Use this for initialization
 	void Start () {
 		
@@ -65,6 +66,11 @@ public class playerControl : MonoBehaviour {
         {
             Destroy(other.gameObject);
 			fuelSum++;
+        }
+		if(other.gameObject.tag == "planet")
+        {
+			Destroy(other.gameObject);
+			planetSum++;
         }
     }
 }
