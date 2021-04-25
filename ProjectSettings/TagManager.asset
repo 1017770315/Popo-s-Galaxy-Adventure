@@ -4,9 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - met
+  - p1
+  - p2
+  - p3
+  - p4
+  - p5
+  - p6
+  - p7
+  - p8
+  - p9
+  - p10
   - fuel
-  - planet
+  - met
   layers:
   - Default
   - TransparentFX

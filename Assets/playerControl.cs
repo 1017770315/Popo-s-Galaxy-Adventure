@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class playerControl : MonoBehaviour {
@@ -14,51 +15,45 @@ public class playerControl : MonoBehaviour {
 	int planetSum = 0;
 	// Use this for initialization
 	int health = 100;
+	// Use this for initialization
+	public Text healthTxt;
 	void Start () {
-		
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(Input.GetKey(KeyCode.W))
+        
+		healthTxt.text = health.ToString();
+		if(Input.GetKey(KeyCode.W))
 		{
-			//print("w");
+			print("w");
 			transform.Translate(Vector3.up * Time.deltaTime * 1 * speed);
 			move += Time.deltaTime * speed;
-			//print(move);
 		}
 
 		//向下运动——S
 		if(Input.GetKey(KeyCode.S))
 		{
-			//print("s");
+			print("s");
 			transform.Translate(Vector3.down * Time.deltaTime * 1 * speed);
 			move += Time.deltaTime * speed;
-			//print(move);
-
 		}
 
 		//向左运动——A
 		if(Input.GetKey(KeyCode.A))
 		{
-			//print("a");
+			print("a");
 			transform.Translate(Vector3.left * Time.deltaTime * 1 * speed);
 			move += Time.deltaTime * speed;
-			//print(move);
 		}
 
 		//向右运动——D
 		if(Input.GetKey(KeyCode.D))
 		{
-			//print("d");
-			transform.Translate(Vector3.right * Time.deltaTime * 1 *speed);
+			print("d");
+			transform.Translate(Vector3.right * Time.deltaTime * 1 * speed);
 			move += Time.deltaTime * speed;
-			//print(move);
-		}
-
-		if(health <= 0)
-		{
-			StartCoroutine (KillPlayer ());
 		}
         
     }
@@ -69,18 +64,15 @@ public class playerControl : MonoBehaviour {
             Destroy(other.gameObject);
 			metSum++;
 			health -= Random.Range(5,10);
+			Debug.Log("met:" + metSum + " " + "health:" + health);
         }
 		if(other.gameObject.tag == "fuel")
         {
             Destroy(other.gameObject);
 			fuelSum++;
-			health += Random.Range(1,10);
-
-        }
-		if(other.gameObject.tag == "planet")
-        {
-			Destroy(other.gameObject);
-			planetSum++;
+			health += 5;
+			Debug.Log("fuel:" + fuelSum + " " + "health:" + health);
+			//health += Random.Range(1,10);
         }
     }
 	IEnumerator KillPlayer()

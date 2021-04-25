@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -17,7 +17,7 @@ public class StoryText : MonoBehaviour
 
     void Start()
     {
-        anim = this.transform.parent.gameObject.GetComponent<Animation>();
+        // anim = this.transform.parent.gameObject.GetComponent<Animation>();
         
         StartCoroutine(Display());
         
@@ -61,7 +61,7 @@ public class StoryText : MonoBehaviour
         // Popo飞天
         // 加载main scene
         
-        anim.Play("PoPoRotate");
+        //anim.Play("PoPoRotate");
         Invoke("Success",2); 
     }
    
