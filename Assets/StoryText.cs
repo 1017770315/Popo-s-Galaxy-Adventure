@@ -28,9 +28,9 @@ public class StoryText : MonoBehaviour
     }
     IEnumerator Display()
     {
-        sr= new StreamReader(Application.dataPath + "/text.txt");
+        sr= new StreamReader(Application.streamingAssetsPath + "/text.txt");
         //创建一个流，用于读取行数
-        StreamReader srLine = new StreamReader(Application.dataPath + "/text.txt");
+        StreamReader srLine = new StreamReader(Application.streamingAssetsPath + "/text.txt");
         //循环来读取行数，直到为null停止
         while(srLine.ReadLine()!=null)
         {

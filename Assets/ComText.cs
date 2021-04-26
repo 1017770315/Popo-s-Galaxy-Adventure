@@ -8,14 +8,16 @@ public class ComText : MonoBehaviour
     public Transform trans;
     public int flag = 1; // 当前对话的编号
     private int time = 1;
-    private int ratetime = 3;
+    private int ratetime = 4;
     public GameObject root;
     public GameObject grid;
+   
     void Awake()
     {
         trans = this.transform; // 获取当前组件（canvas）节点
         root = GameObject.Find("Map");
         grid = root.transform.Find("Grid").gameObject;
+        // popoTrans = GameObject.Find("popo").transform;
 
         InvokeRepeating("ShowText", time, ratetime);
     }
@@ -37,6 +39,7 @@ public class ComText : MonoBehaviour
             // 获取Grid，复原Grid，同时删去本节点
             grid.SetActive(true);
             Destroy(this.gameObject);
+            
         }
     }
     // Start is called before the first frame update

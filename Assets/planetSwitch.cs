@@ -5,12 +5,14 @@ using UnityEngine;
 public class planetSwitch : MonoBehaviour
 {
     public Transform gridTrans;
+    public Transform popoTrans;
     private Object canvasPreb;
     private GameObject cvsPreb;
     // Start is called before the first frame update
     void Start()
     {
         gridTrans = GameObject.Find("Grid").transform;
+        popoTrans = GameObject.Find("popo").transform;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -18,6 +20,8 @@ public class planetSwitch : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Go planet");
+            // count planet
+            popoTrans.gameObject.GetComponent<playerControl>().planetSum += 1;
             // 隐藏grid
             gridTrans.gameObject.SetActive(false);
             Destroy(this.gameObject); 
@@ -34,10 +38,19 @@ public class planetSwitch : MonoBehaviour
                 case "p8": canvasPreb = Resources.Load("Canvas8"); break;
                 case "p9": canvasPreb = Resources.Load("Canvas9"); break;
                 case "p10": canvasPreb = Resources.Load("Canvas10"); break;
+                case "poStar": 
+                {
+                    canvasPreb = Resources.Load("CanvasFinal");
+                    break;
+                }
                 default: break;
             }
             cvsPreb = Instantiate(canvasPreb) as GameObject;
             cvsPreb.transform.parent = GameObject.Find("Map").transform;
+            if (this.gameObject.tag == "poStar")
+            {
+                popoTrans.gameObject.GetComponent<playerControl>().endFlag = 1;
+            }
         }
     }
     // Update is called once per frame

@@ -44,7 +44,9 @@
      <Compile Include="Assets\StoryText.cs" />
      <Compile Include="Assets\planetSwitch.cs" />
      <Compile Include="Assets\playerControl.cs" />
-     <None Include="Assets\Text.txt" />
+     <None Include="Assets\StreamingAssets\msgTxt.txt" />
+     <None Include="Assets\StreamingAssets\dataRec.txt" />
+     <None Include="Assets\StreamingAssets\Text.txt" />
     <Reference Include="UnityEngine">
         <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

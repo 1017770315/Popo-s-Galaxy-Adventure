@@ -16,6 +16,7 @@ TagManager:
   - p10
   - fuel
   - met
+  - poStar
   layers:
   - Default
   - TransparentFX
