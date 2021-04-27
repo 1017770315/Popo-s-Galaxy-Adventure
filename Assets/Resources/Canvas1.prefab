@@ -236,7 +236,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You! Come and play with me!
+  m_Text: You! Come and play with me!!
 --- !u!1 &6562061514841794290
 GameObject:
   m_ObjectHideFlags: 0
