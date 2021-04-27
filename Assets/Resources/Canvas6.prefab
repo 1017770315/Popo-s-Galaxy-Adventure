@@ -151,7 +151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hi, my name is Nima. It's ZuAn here.
+  m_Text: "\u6B22\u8FCE\u6765\u5230ZuAn\uFF0C\u6211\u662F\u5C3C\u739B( \uFF9F\u2200\u3002)"
 --- !u!1 &8567122622821402859
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Your appearence is so weird, we call you shit here :)
+  m_Text: "\u5144\u554A\uFF0C\u4F60\u6015\u4E0D\u662F\u4E00\u5768\u7C91\u7C91"
 --- !u!1 &8567122622829472217
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I feel uncomfortable. Hehe.
+  m_Text: "\u5C3C\u739B\u6B7B\u4E86"
 --- !u!1 &8567122622870459404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,4 +1106,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hi, I'm PoPo. ^ ^
+  m_Text: "\u4F60...\u4F60\u597D"

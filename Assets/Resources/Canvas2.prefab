@@ -77,7 +77,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I'm sorry but my ship is out of space...
+  m_Text: "\u6211\u5F88\u60F3\u5E26\u4E0A\u4F60\uFF0C\u4F46\u662F\u6211\u7684\u98DE\u8239\u6CA1\u6709\u66F4\u591A\u7684\u7A7A\u95F4\u4E86\u2026"
 --- !u!1 &2975843098795588894
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +303,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wait wait wait? I don't know you.
+  m_Text: "\u8FD9\u4E2A\u661F\u7403\u2026\u600E\u4E48\u4E86\uFF1F"
 --- !u!1 &2975843098932359467
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Are you here to save my life?
+  m_Text: "\u7EC8\u4E8E\uFF01\u2026\u4F60\u662F\u6765\u6551\u6211\u7684\u5417\uFF1F"
 --- !u!1 &2975843099277820024
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No one in this start, only me left.
+  m_Text: "\u5927\u5BB6\u90FD\u4E0D\u5728\u4E86\uFF0C\u53EA\u6709\u6211\u4E86\uFF0C\u5E26\u4E0A\u6211\u5427\uFF0C\u6C42\u6C42\u4F60\u4E86"
 --- !u!1 &2975843100123731881
 GameObject:
   m_ObjectHideFlags: 0

@@ -199,7 +199,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: (PoPo is running away)
+  m_Text: "\uFF08Popo\u6E9C\u4E86\uFF09"
 --- !u!1 &652964447890536044
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ...Hi, my name is popo, I'm from Po.
+  m_Text: "\u4F60\u597D\uFF01\u6211\u662FPo\u661F\u7684Popo"
 --- !u!1 &2359776792629874924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rua! Rua! Rua!
+  m_Text: "RUA\uFF01RUA\uFF01RUA\uFF01"
 --- !u!1 &8760954713871205906
 GameObject:
   m_ObjectHideFlags: 0

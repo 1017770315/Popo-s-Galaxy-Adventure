@@ -1,4 +1,5 @@
-﻿Po canlender year 7702, Po start's oceans were contaminated by leaking nuclear radiation... $2
-The surface of the Po was severely damaged and the organisms were mutated by radiation. PoShits are forced to live underground... $2
-Popo, the hero of the star, took on important task of saving the planet. After a long search in the universe, it find the Red Crystal to save all... $2
-At that moment, Popo is on its way back... $2
+﻿Po历7702年，Po星的海洋被核污水严重污染 $3
+Po星表面已不再适合生物居住 $3
+PoShit们被迫移居地下 $3
+Popo，Po星的英雄，为拯救Po星踏上了孤独的星际之旅。经历千难万险后，它终于找到了能拯救一切的红石… $3
+现在，终于到了回家的时候了 $3

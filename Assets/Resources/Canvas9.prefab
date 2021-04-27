@@ -232,7 +232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Why you repeat my name??
+  m_Text: "\u548B\u6EF4\u4E86\u5927\u5144\u5F97\uFF0C\u88AB\u4FFA\u6EF4\u7F8E\u8C8C\u6298\u670D\u6EF4\u8BF4\u4E0D\u51FA\u8BDD\u4E86\u568E"
 --- !u!1 &1962206718797072935
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +310,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to meet you, Hata hata.
+  m_Text: "\u2026"
 --- !u!1 &2123188590247862094
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What? I misunderstandit that I think Hata means hello...
+  m_Text: "\u2026\u60A8\u957F\u5F97\u50CF\u72D2\u72D2\u7684\u5C41\u80A1\u70B8\u5F00\u7684\u82B1"
 --- !u!1 &4738892888807936648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I'm the prince of the star!!! Hata.
+  m_Text: "\u4FFA\u662FHata\uFF0C\u8FD9\u560E\u8FBE\u6EF4\u738B\u5B50"
 --- !u!1 &8673567847251275440
 GameObject:
   m_ObjectHideFlags: 0

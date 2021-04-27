@@ -151,7 +151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I am you from the future.
+  m_Text: "Popo\uFF0C\u6211\u662F\u672A\u6765\u7684\u4F60"
 --- !u!1 &1426676963565571721
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hi, anyone here?
+  m_Text: "\u563F\uFF0C\u6709\u4EBA\u5417\u2026\uFF1F"
 --- !u!1 &3158351966175635311
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wow!!! So cool!!!
+  m_Text: "\u54C7\u54E6\u2026\u90A3\u6211\u4EEC\u661F\u7403\u2026"
 --- !u!1 &7113961120474146508
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Signal loss...
+  m_Text: "\u2026\u4FE1\u53F7\u4E22\u5931\u2026"
 --- !u!1 &8329947530460711248
 GameObject:
   m_ObjectHideFlags: 0

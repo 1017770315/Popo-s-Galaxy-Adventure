@@ -236,7 +236,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You! Come and play with me!!
+  m_Text: "\u5440\u54C8\u54C8\uFF01\u4F60\uFF01\u6211\uFF01\u73B0\u5728\uFF01\u548C\u6211\u73A9\uFF01"
 --- !u!1 &6562061514841794290
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +721,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ...Weird guy
+  m_Text: "\uFF1F\uFF1F\uFF1F"
 --- !u!1 &6562061515666775960
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,7 +799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '#%^%^Remember my name, Dio!'
+  m_Text: "??!!^&*%\u4F60\u7ED9\u6211\u8BB0\u4F4F\uFF01\u6211\u53EB\u5C4C\u4E0D\u61D2\u60F0\uFF01"
 --- !u!1 &6562061515680171667
 GameObject:
   m_ObjectHideFlags: 0

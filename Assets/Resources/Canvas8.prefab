@@ -77,7 +77,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: We can't see hope tomorrow!!
+  m_Text: "\u6211\u4EEC\u6CA1\u5E0C\u671B\u4E86\uFF01"
 --- !u!1 &373081918817903859
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: So sorry to hear that...
+  m_Text: "\u597D\u8270\u96BE\u7684\u661F\u7403\u554A"
 --- !u!1 &3384525502921862148
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What happened?
+  m_Text: "\u8FD9\u91CC\u600E\u4E48\u4E86\uFF1F"
 --- !u!1 &3515110383555363132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1069,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: So cold here, the sun is falling down, no warm days here.
+  m_Text: "\u592A\u9633\u7184\u706D\uFF0C\u592A\u51B7\u4E86\uFF0C\u4EC0\u4E48\u90FD\u6CA1\u6709\u4E86"
 --- !u!1 &8762152879073377006
 GameObject:
   m_ObjectHideFlags: 0

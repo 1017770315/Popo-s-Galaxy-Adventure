@@ -22,8 +22,8 @@ public class playerControl : MonoBehaviour {
 	public Text healthTxt;
 	public Text messageTxt;
 	public string[] msgStr;
-	private int time = 7;
-    private int ratetime = 7;
+	private int time = 10;
+    private int ratetime = 10;
 
 	void Awake()
 	{
