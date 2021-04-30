@@ -36,14 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraFollow.cs" />
-     <Compile Include="Assets\ComText.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\ComText.cs" />
+     <Compile Include="Assets\Scripts\StoryText.cs" />
      <Compile Include="Assets\Scripts\dialogControl1.cs" />
+     <Compile Include="Assets\Scripts\dontDestroy.cs" />
      <Compile Include="Assets\Scripts\metController.cs" />
+     <Compile Include="Assets\Scripts\planetSwitch.cs" />
+     <Compile Include="Assets\Scripts\playerControl.cs" />
      <Compile Include="Assets\Scripts\sceneManager.cs" />
-     <Compile Include="Assets\StoryText.cs" />
-     <Compile Include="Assets\planetSwitch.cs" />
-     <Compile Include="Assets\playerControl.cs" />
      <None Include="Assets\StreamingAssets\msgTxt.txt" />
      <None Include="Assets\StreamingAssets\dataRec.txt" />
      <None Include="Assets\StreamingAssets\Text.txt" />
